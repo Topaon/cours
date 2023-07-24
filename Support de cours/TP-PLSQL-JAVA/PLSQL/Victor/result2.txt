@@ -1,0 +1,860 @@
+SQL> start "C:\Users\Victor\Desktop\TP-12-Juillet\00-meta.sql"
+
+Table supprimée.
+
+
+Table supprimée.
+
+
+Table supprimée.
+
+
+Table supprimée.
+
+
+Table supprimée.
+
+
+Table supprimée.
+
+
+Table créée.
+
+
+Table créée.
+
+
+Table créée.
+
+
+Table créée.
+
+
+Table créée.
+
+
+Table créée.
+
+ Nom                                       NULL ?   Type
+ ----------------------------------------- -------- ----------------------------
+ INDIP                                     NOT NULL VARCHAR2(11)
+ NOMSEGMENT                                NOT NULL VARCHAR2(20)
+ ETAGE                                              NUMBER(2)
+
+ Nom                                       NULL ?   Type
+ ----------------------------------------- -------- ----------------------------
+ NSALLE                                    NOT NULL VARCHAR2(7)
+ NOMSALLE                                  NOT NULL VARCHAR2(20)
+ NBPOSTE                                            NUMBER(2)
+ INDIP                                              VARCHAR2(11)
+
+ Nom                                       NULL ?   Type
+ ----------------------------------------- -------- ----------------------------
+ NPOSTE                                    NOT NULL VARCHAR2(7)
+ NOMPOSTE                                  NOT NULL VARCHAR2(20)
+ INDIP                                              VARCHAR2(11)
+ AD                                                 NUMBER(3)
+ TYPEPOSTE                                          VARCHAR2(9)
+ NSALLE                                             VARCHAR2(7)
+
+ Nom                                       NULL ?   Type
+ ----------------------------------------- -------- ----------------------------
+ NLOG                                      NOT NULL VARCHAR2(5)
+ NOMLOG                                             VARCHAR2(20)
+ DATEACH                                            DATE
+ VERSION                                            VARCHAR2(7)
+ TYPELOG                                            VARCHAR2(9)
+ PRIX                                               NUMBER(6,2)
+
+ Nom                                       NULL ?   Type
+ ----------------------------------------- -------- ----------------------------
+ NPOSTE                                    NOT NULL VARCHAR2(7)
+ NLOG                                      NOT NULL VARCHAR2(5)
+ NUMINS                                             NUMBER(5)
+ DATEINS                                            DATE
+ DELAI                                              INTERVAL DAY(5) TO SECOND(2)
+
+ Nom                                       NULL ?   Type
+ ----------------------------------------- -------- ----------------------------
+ TYPELP                                    NOT NULL VARCHAR2(9)
+ NOMTYPE                                            VARCHAR2(20)
+
+
+0 lignes supprimées.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+0 lignes supprimées.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+0 lignes supprimées.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+0 lignes supprimées.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+0 lignes supprimées.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+Table supprimée.
+
+
+Table supprimée.
+
+
+Table supprimée.
+
+
+Table supprimée.
+
+
+Table supprimée.
+
+
+Table créée.
+
+
+Table créée.
+
+
+Table créée.
+
+
+Table créée.
+
+
+Table créée.
+
+
+Séquence supprimée.
+
+
+Séquence créée.
+
+
+0 lignes supprimées.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne mise à jour.
+
+
+1 ligne mise à jour.
+
+
+1 ligne mise à jour.
+
+
+2 lignes mises à jour.
+
+
+0 lignes supprimées.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+0 lignes supprimées.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+0 lignes supprimées.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+0 lignes supprimées.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+0 lignes supprimées.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+ Nom                                       NULL ?   Type
+ ----------------------------------------- -------- ----------------------------
+ INDIP                                     NOT NULL VARCHAR2(11)
+ NOMSEGMENT                                NOT NULL VARCHAR2(20)
+ ETAGE                                              NUMBER(2)
+ NBSALLE                                            NUMBER(2)
+ NBPOSTE                                            NUMBER(2)
+
+
+Table modifiée.
+
+ Nom                                       NULL ?   Type
+ ----------------------------------------- -------- ----------------------------
+ INDIP                                     NOT NULL VARCHAR2(11)
+ NOMSEGMENT                                NOT NULL VARCHAR2(15)
+ ETAGE                                              NUMBER(2)
+ NBSALLE                                            NUMBER(2)
+ NBPOSTE                                            NUMBER(2)
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table supprimée.
+
+
+Table créée.
+
+ALTER TABLE Salle ADD CONSTRAINT fk_Salle_indIP_Segment
+                                 *
+ERREUR à la ligne 1 :
+ORA-02298: impossible de valider (SYS.FK_SALLE_INDIP_SEGMENT) - clés parents 
+introuvables 
+
+
+ALTER TABLE Logiciel ADD CONSTRAINT fk_Logiciel_typeLog_Types
+                                    *
+ERREUR à la ligne 1 :
+ORA-02298: impossible de valider (SYS.FK_LOGICIEL_TYPELOG_TYPES) - clés parents 
+introuvables 
+
+
+
+LIGNE              PROPRIETAIRE                   NOMTABLE                      
+------------------ ------------------------------ ------------------------------
+CONTRAINTE                                                                      
+------------------------------                                                  
+AAAUMiAABAAAgUpAAG SYS                            SALLE                         
+FK_SALLE_INDIP_SEGMENT                                                          
+                                                                                
+AAAUMiAABAAAgUpAAH SYS                            SALLE                         
+FK_SALLE_INDIP_SEGMENT                                                          
+                                                                                
+AAAUMmAABAAAifZAAH SYS                            LOGICIEL                      
+FK_LOGICIEL_TYPELOG_TYPES                                                       
+                                                                                
+
+
+ROWID              NSALLE  NOMSALLE                          NBPOSTE INDIP      
+------------------ ------- ------------------------------ ---------- -----------
+AAAUMiAABAAAgUpAAG s22     Salle 22                                0 130.120.83 
+AAAUMiAABAAAgUpAAH s23     Salle 23                                0 130.120.83 
+
+
+ROWID              NLOG  NOMLOG               DATEACH  VERSION TYPELOG          
+------------------ ----- -------------------- -------- ------- ---------        
+      PRIX  NBINSTALL                                                           
+---------- ----------                                                           
+AAAUMmAABAAAifZAAH log8  DreamWeaver          21/09/03 2.0     BeOS             
+      1400                                                                      
+                                                                                
+
+
+3 lignes supprimées.
+
+
+2 lignes supprimées.
+
+
+NSALLE  NOMSALLE                          NBPOSTE INDIP                         
+------- ------------------------------ ---------- -----------                   
+s01     Salle 1                                 3 130.120.80                    
+s02     Salle 2                                 2 130.120.80                    
+s03     Salle 3                                 2 130.120.80                    
+s11     Salle 11                                2 130.120.81                    
+s12     Salle 12                                1 130.120.81                    
+s21     Salle 21                                2 130.120.82                    
+
+6 lignes sélectionnées.
+
+
+1 ligne créée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+aucune ligne sélectionnée
+
+
+aucune ligne sélectionnée
+
+
+aucune ligne sélectionnée
+
+
+Table modifiée.
+
+
+Table supprimée.
+
+
+Table supprimée.
+
+
+Table créée.
+
+
+Table créée.
+
+
+Table modifiée.
+
+
+5 lignes mises à jour.
+
+
+T  NB_PLACES                                                                    
+- ----------                                                                    
+2          3                                                                    
+0          6                                                                    
+2          3                                                                    
+0          6                                                                    
+2          3                                                                    
+
+
+0 lignes supprimées.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+0 lignes supprimées.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+Table supprimée.
+
+
+Table créée.
+
+ Nom                                       NULL ?   Type
+ ----------------------------------------- -------- ----------------------------
+ NOMSOFT                                            VARCHAR2(5)
+ VERSION                                            VARCHAR2(7)
+ PRIX                                               NUMBER(6,2)
+
+
+Table supprimée.
+
+
+Table créée.
+
+ Nom                                       NULL ?   Type
+ ----------------------------------------- -------- ----------------------------
+ NP                                                 VARCHAR2(7)
+ NOMP                                      NOT NULL VARCHAR2(20)
+ SEG                                                VARCHAR2(11)
+ AD                                                 NUMBER(3)
+ TYPEP                                              VARCHAR2(9)
+ SALLE                                              VARCHAR2(7)
+
+
+NOMSO VERSION       PRIX                                                        
+----- ------- ----------                                                        
+log1  6.2           3000                                                        
+log2  8i            5600                                                        
+log3  7             2430                                                        
+log4  5              500                                                        
+log5  5              750                                                        
+log6  2.0            500                                                        
+log7  2              729                                                        
+log8  2.0           1400                                                        
+
+8 lignes sélectionnées.
+
+
+NP      NOMP                 SEG                 AD TYPEP     SALLE             
+------- -------------------- ----------- ---------- --------- -------           
+p4      Poste 4              130.120.80           4 PCWS      s02               
+p5      Poste 5              130.120.80           5 PCWS      s02               
+p11     Poste 11             130.120.82           1 PCNT      s21               
+p12     Poste 12             130.120.82           2 PCWS      s21               
+
+
+TYPEPOSTE                                                                       
+---------                                                                       
+UNIX                                                                            
+
+
+NOMLOG                                                                          
+--------------------                                                            
+Oracle 6                                                                        
+Oracle 8                                                                        
+SQL*Net                                                                         
+
+
+NOMPOSTE             INDIP       NSALLE                                         
+-------------------- ----------- -------                                        
+Poste 2              130.120.80  s01                                            
+Poste 4              130.120.80  s02                                            
+Poste 5              130.120.80  s02                                            
+Poste 6              130.120.80  s03                                            
+Poste 8              130.120.81  s11                                            
+Poste 10             130.120.81  s12                                            
+Poste 12             130.120.82  s21                                            
+
+7 lignes sélectionnées.
+
+
+NOMPOSTE             INDIP       NSALLE                                         
+-------------------- ----------- -------                                        
+Poste 6              130.120.80  s03                                            
+Poste 7              130.120.80  s03                                            
+Poste 4              130.120.80  s02                                            
+Poste 5              130.120.80  s02                                            
+Poste 1              130.120.80  s01                                            
+Poste 2              130.120.80  s01                                            
+Poste 3              130.120.80  s01                                            
+
+7 lignes sélectionnées.
+
+
+NLOG                                                                            
+-----                                                                           
+log6                                                                            
+log1                                                                            
+
+
+NPOSTE                                                                          
+-------                                                                         
+p2                                                                              
+p6                                                                              
+
+
+CONCAT(CONCAT(INDIP,'.0'),AD)                                                   
+-----------------------------------------------------                           
+130.120.80.01                                                                   
+130.120.80.03                                                                   
+130.120.80.07                                                                   
+130.120.81.02                                                                   
+
+
+NPOSTE  COUNT(NLOG)                                                             
+------- -----------                                                             
+p11               2                                                             
+p12               1                                                             
+p2                2                                                             
+p4                1                                                             
+p6                2                                                             
+p7                1                                                             
+p8                2                                                             
+
+7 lignes sélectionnées.
+
+
+NSALLE  COUNT(NPOSTE)                                                           
+------- -------------                                                           
+s01                 3                                                           
+s02                 2                                                           
+s03                 2                                                           
+s11                 2                                                           
+s12                 1                                                           
+s21                 2                                                           
+
+6 lignes sélectionnées.
+
+
+NLOG  COUNT(DISTINCTNPOSTE)                                                     
+----- ---------------------                                                     
+log3                      1                                                     
+log7                      2                                                     
+log4                      1                                                     
+log1                      2                                                     
+log2                      2                                                     
+log5                      1                                                     
+log6                      2                                                     
+
+7 lignes sélectionnées.
+
+
+ AVG(PRIX)                                                                      
+----------                                                                      
+3033,33333                                                                      
+
+
+MAX(DATE                                                                        
+--------                                                                        
+21/09/03                                                                        
+
+
+NPOSTE                                                                          
+-------                                                                         
+p11                                                                             
+p2                                                                              
+p6                                                                              
+p8                                                                              
+
+
+  COUNT(*)                                                                      
+----------                                                                      
+         4                                                                      
+
+
+NOMTYPE                                                                         
+--------------------                                                            
+Network Computer                                                                
+
+
+NOMTYPE                                                                         
+--------------------                                                            
+Systeme Unix                                                                    
+PC Windows NT                                                                   
+PC Windows                                                                      
+
+
+NOMTYPE                                                                         
+--------------------                                                            
+Terminal X-Window                                                               
+
+
+INDIP                                                                           
+-----------                                                                     
+130.120.80                                                                      
+130.120.81                                                                      
+
+
+INDIP                                                                           
+-----------                                                                     
+130.120.80                                                                      
+130.120.81                                                                      
+
+
+NOMSEGMENT                                                                      
+---------------                                                                 
+Brin RDC                                                                        
+
+
+NOMSALLE                                                                        
+------------------------------                                                  
+Salle 1                                                                         
+Salle 3                                                                         
+
+
+NOMLOG                                                                          
+--------------------                                                            
+DreamWeaver                                                                     
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+3 lignes mises à jour.
+
+
+INDIP       NOMSEGMENT           ETAGE    NBSALLE    NBPOSTE                    
+----------- --------------- ---------- ---------- ----------                    
+130.120.80  Brin RDC                 0          3                               
+130.120.81  Brin 1er etage           1          2                               
+130.120.82  Brin 2eme etage          2          1                               
+
+
+3 lignes mises à jour.
+
+
+INDIP       NOMSEGMENT           ETAGE    NBSALLE    NBPOSTE                    
+----------- --------------- ---------- ---------- ----------                    
+130.120.80  Brin RDC                 0          3          7                    
+130.120.81  Brin 1er etage           1          2          3                    
+130.120.82  Brin 2eme etage          2          1          2                    
+
+
+8 lignes mises à jour.
+
+
+NLOG  NOMLOG               DATEACH  VERSION TYPELOG         PRIX  NBINSTALL     
+----- -------------------- -------- ------- --------- ---------- ----------     
+log1  Oracle 6             13/05/95 6.2     UNIX            3000          4     
+log2  Oracle 8             15/09/99 8i      UNIX            5600          2     
+log3  SQL Server           12/04/98 7       PCNT            2430          1     
+log4  Front Page           03/06/97 5       PCWS             500          1     
+log5  WinDev               12/05/97 5       PCWS             750          1     
+log6  SQL*Net                       2.0     UNIX             500          3     
+log7  I. I. S.             12/04/02 2       PCNT             729          2     
+log8  DreamWeaver          21/09/03 2.0     BeOS            1400          0     
+
+8 lignes sélectionnées.
+
+
+12 lignes mises à jour.
+
+
+NPOSTE  NOMPOSTE             INDIP               AD TYPEPOSTE NSALLE       NBLOG
+------- -------------------- ----------- ---------- --------- ------- ----------
+p1      Poste 1              130.120.80           1 TX        s01             15
+p2      Poste 2              130.120.80           2 UNIX      s01             15
+p3      Poste 3              130.120.80           3 TX        s01             15
+p4      Poste 4              130.120.80           4 PCWS      s02             15
+p5      Poste 5              130.120.80           5 PCWS      s02             15
+p6      Poste 6              130.120.80           6 UNIX      s03             15
+p7      Poste 7              130.120.80           7 TX        s03             15
+p8      Poste 8              130.120.81           1 UNIX      s11             15
+p9      Poste 9              130.120.81           2 TX        s11             15
+p10     Poste 10             130.120.81           3 UNIX      s12             15
+p11     Poste 11             130.120.82           1 PCNT      s21             15
+
+NPOSTE  NOMPOSTE             INDIP               AD TYPEPOSTE NSALLE       NBLOG
+------- -------------------- ----------- ---------- --------- ------- ----------
+p12     Poste 12             130.120.82           2 PCWS      s21             15
+
+12 lignes sélectionnées.
+
+SQL> spool off

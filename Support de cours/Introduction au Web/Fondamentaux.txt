@@ -1,0 +1,71 @@
+FONDAMENTAUX DU WEB
+
+Client Serveur et leur relation. Les API, Les SGBD et bases de données, Les protocoles du web, Serveur DNS…
+
+
+1- Web, Origines
+
+2- Client/Serveur Web, TP
+- Client/serveur Web
+- TP : Client/Serveur
+
+3- Protocoles: 
+- TCP/IP, 
+- HTTP : web  (GET), Requête HTTP
+- FTP
+- SMTP, POP, NNTP, TelNet
+- SOAP
+- etc.
+
+4- Langages et technologies
+- HTML, HTML5, Emmet
+- CSS, RWD
+- Javascript, écosystème
+- TypeScript
+- XML et technos associées
+- JSON
+- etc.
+
+5- Serveurs d'application, API
+
+- API = Ensemble de fonctions
+  Exemples : 
+  API MySQLi   : mysqli_connect(.), mysqli_query(.), ...
+  JDBC
+  
+  TP : utiliser une API JDBC / MySQLi
+
+- Serveurs d'app courants
+  Un serveur d'applications est un logiciel d'infrastructure offrant un contexte d'exécution pour des composants applicatifs. 
+  https://fr.wikipedia.org/wiki/Serveur_d%27applications#Principaux_serveurs_d%27applications
+  
+  PHP
+  Java : Websphère, Tomcat, Oracle, Glasfish, WebLogic, JBoss, ..
+  Python : Django, Flask, Pyramid
+  .Net
+ 
+6- Bases de données
+
+- Panorama et types
+- Serveurs
+  SGBD, SQL
+  MySQL (MariaDB)
+  Oracle
+  SQL Server
+  Sybase
+  PostGre SQL
+  etc.
+
+7- Services WEB
+- SOAP
+- API REST = Services distants (Webservices)
+  Representational State Transfer
+
+8- CMS
+
+9- Ajax
+
+10- Frameworks: industrialiser les Devs
+  Laravel, Symfony, ...
+  Spring, Struts, etc.
+  Django

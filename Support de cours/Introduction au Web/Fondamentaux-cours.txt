@@ -1,0 +1,142 @@
+FONDAMENTAUX WEB
+
+
+1- ORIGINE
+Origine internet : ArpaNet (militaires)
+Internet : services email, forums (NNTP), etc.
+Web = Toile d'araignée à l'échelle mondiale = WWW (World Wide Web)
+Date du web = 1996, au CERN de Genève par Tim Berners Lee
+
+W2C = World Wide web Consortium ( normaliser)
+Lire historique (WikiPedia)
+
+2- CLIENT/SERVEUR WEB
+Voir le PDF
+Voir le TP sur XAMP
+
+3- PROTOCOLES
+
++ Applications (Email, Navigateur, Filezilla, etc.)
+
++ Protocoles applicatifs :
+ - SMTP = Simple Mail Transport Protocol, 
+ - POP =Post Office Protocol
+ - HTTP (Web)
+ - FTP = File Transfert Protocol
+ - NNTP = forums = NetWork News Transfert
+ - Telnet
+ 
++ Pile TCP / IP
+  (TCP = Transport Control Protocol, IP = Internet Protocol)
+  
+Adresse IP
+Toute machine sur Net est identifiée par son adresse IP
+
+DNS
+Service de nom de domaine
+Des tables de correspondance nom de domaine -> IP sont gérées par des machines à travers le réseau.
+
+
+4- LANGAGES ET TECHNOLOGIES
+
+1- CSS3 = Cascading Style Sheets = Feuille de style en cascade
+   Contient laes règles de mise en forme et de mise en page.
+   
+   On peut contrôler le CSS avec du Javascript.
+   Notions : sélecteur, classe, media queries, identifiant, etc.
+   
+2- RWD = Responsive Web Design
+   Etienne MARCOTTE 
+   La mise en page s'adapte.
+   
+   Le CSS va interroger le DEVICE en lui envoyant une requête (media query).
+   
+   Il faut utiliser par ex. un Framework CSS:
+   - Twitter Boostrap
+   - Foundation
+   - Pure, etc.....
+   
+   (NB : le Framework BackEnd peut contenir un moteur de rendu)
+   
+3- Javascript
+   - C'est un langage client (Navigateur) , mais aussi serveur (Node.js, etc.)
+   - Langage orienté objet (fenetre, image, etc.)
+   - Langage événementiel :  Click  ===> Afficher une fenêtre
+   - Bibliothèques JS (jQuery, ...)  //  Frameworks JS (ReactJS, Angular, Vue.js, etc.)
+   
+   Mini TP 
+   
+   a- Javascript pur + API Javascript
+   b- TypeScript(Microsoft)
+   c- Bibliothèques, Framework
+   
+4- XML et technos, JSON
+
+   XML = eXtended Markup Language
+   - Langage de balisage
+   - Fichier texte, avec des balises
+   - stocke des infos
+   - faire voyager les infos
+   - Technos associées : XPath, DOM, Sax, CSS, Xquery, Services web SOAP, etc.
+   
+   JSON = Javascript Object Notation
+   - Format de données
+   - Contient du texte  {"age":40, "nom":"DUPONT"}
+   - Plus léger que XML
+   - Stocker les données structurées
+   - Transfert de data (Ex. entre serveur web et des applis)
+   - Utilisé svt avec Ajax et services REST
+   - Utilisé avec JS, Java, PHP, etc.
+   
+5- SERVEURS D'APPLICATION, API
+
+   API = = Application Programming Interface = Ensemble de fonctions   
+
+   API JDBC
+   Fonctions qui vont vous permettre, en Java, d'interagir avec les databases.
+   
+   Mini TP : 
+   Afficher les livres de la table livre de la DB bookstore.
+
+6- BASES DE DONNEES
+	- Panorama et types : 
+	  * SGBDR (Relationnel), 
+	  * SGBDO (Objet), 
+	  * NoSQL (BigTable, Cassandra, Redis,etc.)
+	- Serveurs
+	  SGBD, SQL
+	  MySQL (MariaDB)
+	  Oracle
+	  SQL Server
+	  Sybase
+	  PostGre SQL
+	  etc.
+	  
+7- SERVICES WEB
+   Service Web = appeler des méthodes à distance
+   
+   - Services SOAP (Simple Object Access Protocol)
+     Font transiter du XML
+	 
+   - API REST = Services distants (Webservices)
+	 Representational State Transfer
+	 Font transiter du JSON
+
+
+8- CMS
+   CMS = Content Management Systeme
+   - WordPress
+   - Drupal
+   - Concrete5
+   - Silverstripe
+   - Joomla
+   - etc.
+
+9- Ajax
+   Faire des requêtes vers le serveur en Javascript
+   Requêtes asynchrones (ça na bloque pas la page)
+
+10- Frameworks backend = outils pour industrialiser les Devs
+   PHP : Laravel, Symfony, ...
+   Java : Spring, Struts, JSF, etc.
+   Python : Django, Flask, Pyramid

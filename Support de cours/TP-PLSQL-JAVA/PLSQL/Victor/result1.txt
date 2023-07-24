@@ -1,0 +1,742 @@
+
+Table supprimÚe.
+
+
+Table supprimÚe.
+
+
+Table supprimÚe.
+
+
+Table supprimÚe.
+
+
+Table supprimÚe.
+
+
+Table supprimÚe.
+
+
+Table crÚÚe.
+
+
+Table crÚÚe.
+
+
+Table crÚÚe.
+
+
+Table crÚÚe.
+
+
+Table crÚÚe.
+
+
+Table crÚÚe.
+
+ Nom                                       NULL ?   Type
+ ----------------------------------------- -------- ----------------------------
+ INDIP                                     NOT NULL VARCHAR2(11)
+ NOMSEGMENT                                NOT NULL VARCHAR2(20)
+ ETAGE                                              NUMBER(2)
+
+ Nom                                       NULL ?   Type
+ ----------------------------------------- -------- ----------------------------
+ NSALLE                                    NOT NULL VARCHAR2(7)
+ NOMSALLE                                  NOT NULL VARCHAR2(20)
+ NBPOSTE                                            NUMBER(2)
+ INDIP                                              VARCHAR2(11)
+
+ Nom                                       NULL ?   Type
+ ----------------------------------------- -------- ----------------------------
+ NPOSTE                                    NOT NULL VARCHAR2(7)
+ NOMPOSTE                                  NOT NULL VARCHAR2(20)
+ INDIP                                              VARCHAR2(11)
+ AD                                                 NUMBER(3)
+ TYPEPOSTE                                          VARCHAR2(9)
+ NSALLE                                             VARCHAR2(7)
+
+ Nom                                       NULL ?   Type
+ ----------------------------------------- -------- ----------------------------
+ NLOG                                      NOT NULL VARCHAR2(5)
+ NOMLOG                                             VARCHAR2(20)
+ DATEACH                                            DATE
+ VERSION                                            VARCHAR2(7)
+ TYPELOG                                            VARCHAR2(9)
+ PRIX                                               NUMBER(6,2)
+
+ Nom                                       NULL ?   Type
+ ----------------------------------------- -------- ----------------------------
+ NPOSTE                                    NOT NULL VARCHAR2(7)
+ NLOG                                      NOT NULL VARCHAR2(5)
+ NUMINS                                             NUMBER(5)
+ DATEINS                                            DATE
+ DELAI                                              INTERVAL DAY(5) TO SECOND(2)
+
+ Nom                                       NULL ?   Type
+ ----------------------------------------- -------- ----------------------------
+ TYPELP                                    NOT NULL VARCHAR2(9)
+ NOMTYPE                                            VARCHAR2(20)
+
+
+0 lignes supprimÚes.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+0 lignes supprimÚes.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+0 lignes supprimÚes.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+0 lignes supprimÚes.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+0 lignes supprimÚes.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+Table supprimÚe.
+
+
+Table supprimÚe.
+
+
+Table supprimÚe.
+
+
+Table supprimÚe.
+
+
+Table supprimÚe.
+
+
+Table crÚÚe.
+
+
+Table crÚÚe.
+
+
+Table crÚÚe.
+
+
+Table crÚÚe.
+
+
+Table crÚÚe.
+
+
+SÚquence supprimÚe.
+
+
+SÚquence crÚÚe.
+
+
+0 lignes supprimÚes.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne mise Ó jour.
+
+
+1 ligne mise Ó jour.
+
+
+1 ligne mise Ó jour.
+
+
+2 lignes mises Ó jour.
+
+
+0 lignes supprimÚes.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+0 lignes supprimÚes.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+0 lignes supprimÚes.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+0 lignes supprimÚes.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+0 lignes supprimÚes.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+Table modifiÚe.
+
+
+Table modifiÚe.
+
+
+Table modifiÚe.
+
+
+Table modifiÚe.
+
+
+Table modifiÚe.
+
+ Nom                                       NULL ?   Type
+ ----------------------------------------- -------- ----------------------------
+ INDIP                                     NOT NULL VARCHAR2(11)
+ NOMSEGMENT                                NOT NULL VARCHAR2(20)
+ ETAGE                                              NUMBER(2)
+ NBSALLE                                            NUMBER(2)
+ NBPOSTE                                            NUMBER(2)
+
+
+Table modifiÚe.
+
+ Nom                                       NULL ?   Type
+ ----------------------------------------- -------- ----------------------------
+ INDIP                                     NOT NULL VARCHAR2(11)
+ NOMSEGMENT                                NOT NULL VARCHAR2(15)
+ ETAGE                                              NUMBER(2)
+ NBSALLE                                            NUMBER(2)
+ NBPOSTE                                            NUMBER(2)
+
+
+Table modifiÚe.
+
+
+Table modifiÚe.
+
+
+Table supprimÚe.
+
+
+Table crÚÚe.
+
+ALTER TABLE Salle ADD CONSTRAINT fk_Salle_indIP_Segment
+                                 *
+ERREUR Ó la ligne 1 :
+ORA-02298: impossible de valider (SYS.FK_SALLE_INDIP_SEGMENT) - clÚs parents
+introuvables
+
+
+ALTER TABLE Logiciel ADD CONSTRAINT fk_Logiciel_typeLog_Types
+                                    *
+ERREUR Ó la ligne 1 :
+ORA-02298: impossible de valider (SYS.FK_LOGICIEL_TYPELOG_TYPES) - clÚs parents
+introuvables
+
+
+
+LIGNE              PROPRIETAIRE                   NOMTABLE
+------------------ ------------------------------ ------------------------------
+CONTRAINTE
+------------------------------
+AAAT9/AABAAAgUpAAG SYS                            SALLE
+FK_SALLE_INDIP_SEGMENT
+
+AAAT9/AABAAAgUpAAH SYS                            SALLE
+FK_SALLE_INDIP_SEGMENT
+
+AAAT+DAABAAAifZAAH SYS                            LOGICIEL
+FK_LOGICIEL_TYPELOG_TYPES
+
+
+
+ROWID              NSALLE  NOMSALLE                          NBPOSTE INDIP
+------------------ ------- ------------------------------ ---------- -----------
+AAAT9/AABAAAgUpAAG s22     Salle 22                                0 130.120.83
+AAAT9/AABAAAgUpAAH s23     Salle 23                                0 130.120.83
+
+
+ROWID              NLOG  NOMLOG               DATEACH  VERSION TYPELOG
+------------------ ----- -------------------- -------- ------- ---------
+      PRIX  NBINSTALL
+---------- ----------
+AAAT+DAABAAAifZAAH log8  DreamWeaver          21/09/03 2.0     BeOS
+      1400
+
+
+
+3 lignes supprimÚes.
+
+
+2 lignes supprimÚes.
+
+
+NSALLE  NOMSALLE                          NBPOSTE INDIP
+------- ------------------------------ ---------- -----------
+s01     Salle 1                                 3 130.120.80
+s02     Salle 2                                 2 130.120.80
+s03     Salle 3                                 2 130.120.80
+s11     Salle 11                                2 130.120.81
+s12     Salle 12                                1 130.120.81
+s21     Salle 21                                2 130.120.82
+
+6 lignes sÚlectionnÚes.
+
+
+1 ligne crÚÚe.
+
+
+Table modifiÚe.
+
+
+Table modifiÚe.
+
+
+aucune ligne sÚlectionnÚe
+
+
+aucune ligne sÚlectionnÚe
+
+
+aucune ligne sÚlectionnÚe
+
+
+Table modifiÚe.
+
+
+Table supprimÚe.
+
+
+Table supprimÚe.
+
+
+Table crÚÚe.
+
+
+Table crÚÚe.
+
+
+Table modifiÚe.
+
+
+5 lignes mises Ó jour.
+
+
+T  NB_PLACES
+- ----------
+2          3
+0          6
+2          3
+0          6
+2          3
+
+
+0 lignes supprimÚes.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+0 lignes supprimÚes.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+1 ligne crÚÚe.
+
+
+Table supprimÚe.
+
+
+Table crÚÚe.
+
+ Nom                                       NULL ?   Type
+ ----------------------------------------- -------- ----------------------------
+ NOMSOFT                                            VARCHAR2(5)
+ VERSION                                            VARCHAR2(7)
+ PRIX                                               NUMBER(6,2)
+
+
+Table supprimÚe.
+
+
+Table crÚÚe.
+
+ Nom                                       NULL ?   Type
+ ----------------------------------------- -------- ----------------------------
+ NP                                                 VARCHAR2(7)
+ NOMP                                      NOT NULL VARCHAR2(20)
+ SEG                                                VARCHAR2(11)
+ AD                                                 NUMBER(3)
+ TYPEP                                              VARCHAR2(9)
+ SALLE                                              VARCHAR2(7)
+
+
+NOMSO VERSION       PRIX
+----- ------- ----------
+log1  6.2           3000
+log2  8i            5600
+log3  7             2430
+log4  5              500
+log5  5              750
+log6  2.0            500
+log7  2              729
+log8  2.0           1400
+
+8 lignes sÚlectionnÚes.
+
+
+NP      NOMP                 SEG                 AD TYPEP     SALLE
+------- -------------------- ----------- ---------- --------- -------
+p4      Poste 4              130.120.80           4 PCWS      s02
+p5      Poste 5              130.120.80           5 PCWS      s02
+p11     Poste 11             130.120.82           1 PCNT      s21
+p12     Poste 12             130.120.82           2 PCWS      s21
+
+
+TYPEPOSTE
+---------
+UNIX
+
+
+NOMLOG
+--------------------
+Oracle 6
+Oracle 8
+SQL*Net
+
+
+NOMPOSTE             INDIP       NSALLE
+-------------------- ----------- -------
+Poste 2              130.120.80  s01
+Poste 4              130.120.80  s02
+Poste 5              130.120.80  s02
+Poste 6              130.120.80  s03
+Poste 8              130.120.81  s11
+Poste 10             130.120.81  s12
+Poste 12             130.120.82  s21
+
+7 lignes sÚlectionnÚes.
+
+
+NOMPOSTE             INDIP       NSALLE
+-------------------- ----------- -------
+Poste 6              130.120.80  s03
+Poste 7              130.120.80  s03
+Poste 4              130.120.80  s02
+Poste 5              130.120.80  s02
+Poste 1              130.120.80  s01
+Poste 2              130.120.80  s01
+Poste 3              130.120.80  s01
+
+7 lignes sÚlectionnÚes.
+
+
+NLOG
+-----
+log6
+log1
+
+
+NPOSTE
+-------
+p2
+p6
+
+
+CONCAT(CONCAT(INDIP,'.0'),AD)
+-----------------------------------------------------
+130.120.80.01
+130.120.80.03
+130.120.80.07
+130.120.81.02
+
+
+NPOSTE  COUNT(NLOG)
+------- -----------
+p11               2
+p12               1
+p2                2
+p4                1
+p6                2
+p7                1
+p8                2
+
+7 lignes sÚlectionnÚes.
+
+
+NSALLE  COUNT(NPOSTE)
+------- -------------
+s01                 3
+s02                 2
+s03                 2
+s11                 2
+s12                 1
+s21                 2
+
+6 lignes sÚlectionnÚes.
+
+
+NLOG  COUNT(DISTINCTNPOSTE)
+----- ---------------------
+log3                      1
+log7                      2
+log4                      1
+log1                      2
+log2                      2
+log5                      1
+log6                      2
+
+7 lignes sÚlectionnÚes.
+
+
+ AVG(PRIX)
+----------
+3033,33333
+
+
+MAX(DATE
+--------
+21/09/03
+
+
+NPOSTE
+-------
+p11
+p2
+p6
+p8
+
+
+  COUNT(*)
+----------
+         4

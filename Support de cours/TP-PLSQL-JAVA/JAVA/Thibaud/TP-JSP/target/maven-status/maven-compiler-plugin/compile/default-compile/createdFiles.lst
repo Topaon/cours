@@ -1,0 +1,12 @@
+fr\inetum\tp\models\Stagiaire.class
+fr\inetum\tp\connexion\SimpleDataSource.class
+fr\inetum\tp\services\AdresseService.class
+fr\inetum\tp\services\IAdresseService.class
+fr\inetum\tp\utils\MethodsUtils.class
+fr\inetum\tp\servlets\LoginServlet.class
+fr\inetum\tp\servlets\ListeServlet.class
+fr\inetum\tp\connexion\TestMaConnexion.class
+fr\inetum\tp\models\Adresse.class
+fr\inetum\tp\services\IStagiaireService.class
+fr\inetum\tp\connexion\MaConnexion.class
+fr\inetum\tp\services\StagiaireService.class

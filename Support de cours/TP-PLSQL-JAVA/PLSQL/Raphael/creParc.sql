@@ -1,0 +1,48 @@
+
+CREATE TABLE Segment (
+  indIP VARCHAR2(11) NOT NULL CONSTRAINT pk_indip PRIMARY KEY,  
+  nomSegment VARCHAR2(20) NOT NULL,
+  etage NUMBER(2)
+);
+CREATE TABLE Salle (
+nSalle VARCHAR2(7) NOT NULL CONSTRAINT pk_nsalle PRIMARY KEY,
+nomSalle  VARCHAR2(20)  NOT NULL,
+nbPoste NUMBER(2),
+indIP VARCHAR2(11) -- CONSTRAINT fk_indIP REFERENCES Segment(indIP)
+);
+
+CREATE TABLE Poste (
+nPoste VARCHAR2(7) NOT NULL CONSTRAINT pk_nposte PRIMARY KEY,
+nomPoste  VARCHAR2(20)  NOT NULL,
+ad VARCHAR2(3) CONSTRAINT check_ad CHECK (ad BETWEEN 0 and 255),
+typePoste VARCHAR2(9),
+indIP VARCHAR2(11) CONSTRAINT fk_indIPPoste REFERENCES Segment(indIP),
+nSalle VARCHAR2(7)CONSTRAINT fk_nSalle REFERENCES Salle(nSalle)
+);
+
+CREATE TABLE Logiciel (
+nLog VARCHAR2(5) NOT NULL CONSTRAINT pk_nlog PRIMARY KEY,
+nomLog VARCHAR2(20),
+dateAch DATE,
+version VARCHAR2(7),
+typeLog VARCHAR2(9),
+prix NUMBER(6,2) CONSTRAINT check_prix CHECK (prix >= 0)
+);
+
+CREATE TABLE Installer (
+nPoste VARCHAR2(7) CONSTRAINT fk_nPoste REFERENCES Poste(nPoste),
+nLog VARCHAR2(5) CONSTRAINT fk_nLog REFERENCES Logiciel(nLog),
+numIns NUMBER(5),
+dateIns DATE DEFAULT sysdate,
+delai INTERVAL DAY(5) TO SECOND (2),
+CONSTRAINT pk_ins PRIMARY KEY (nPoste, nLog)
+);
+
+CREATE TABLE Types (
+typeLP VARCHAR2(9) NOT NULL CONSTRAINT pk_typelp PRIMARY KEY,
+nomType VARCHAR2(20)
+);
+
+
+
+
